@@ -14,5 +14,5 @@ export async function getRepos(username: string): Promise<Repo[]> {
 
 export async function getIp(ipAddress: string): Promise<Ip> {
   return await (await fetch(
-    `http://ip-api.com/json/${ip}`)).json();
+    `http://ip-api.com/json/${ipAddress}`)).json();
 }
