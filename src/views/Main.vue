@@ -38,7 +38,6 @@
 
 <script lang="ts">
 import Vue from "vue";
-import api from "@/api/main";
 import {Repo} from "@/types/repo";
 import {DataTableHeader} from "vuetify";
 import {getRepos} from "@/api/api";
