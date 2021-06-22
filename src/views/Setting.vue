@@ -6,7 +6,7 @@
         <v-spacer/>
       </v-card-title>
       <div class="pa-8">
-        Your language is set to {{ language }}
+        Your language is set to {{ language }} (NOTE: This does not change anything)
         <language-select
           :language.sync="language"
           />

@@ -9,7 +9,8 @@
         <v-list-item-content>
           <v-icon size="100">mdi-account</v-icon>
           <v-list-item-title>
-            Welcome, {{ user.name }}!
+<!--            Welcome, {{ user.name }}!-->
+            Welcome!
           </v-list-item-title>
         </v-list-item-content>
       </v-list-item>
@@ -46,7 +47,7 @@
       <v-app-bar-nav-icon v-if="user != null"
                           @click="drawerShown = !drawerShown"/>
       <v-toolbar-title>
-        Andrew's Vue App
+        Github Repos Search
       </v-toolbar-title>
     </v-app-bar>
 
